@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 
 const projects = [
-  { title: "Startup Landing Page", category: "Landing Page", color: "from-primary to-secondary" },
-  { title: "Business Website", category: "Corporate", color: "from-secondary to-primary" },
-  { title: "Product Showcase", category: "E-commerce", color: "from-primary to-[hsl(200,80%,50%)]" },
-  { title: "Personal Portfolio", category: "Portfolio", color: "from-[hsl(280,60%,55%)] to-primary" },
+  { title: "Startup Landing Page", category: "Landing Page" },
+  { title: "Business Website", category: "Corporate" },
+  { title: "Product Showcase", category: "E-commerce" },
+  { title: "Personal Portfolio", category: "Portfolio" },
 ];
 
 const Portfolio = () => (
@@ -35,7 +35,7 @@ const Portfolio = () => (
             className="group glass rounded-2xl overflow-hidden cursor-pointer"
           >
             {/* Image placeholder */}
-            <div className={`h-48 bg-gradient-to-br ${p.color} opacity-30 group-hover:opacity-50 transition-opacity flex items-center justify-center`}>
+            <div className="h-48 bg-primary/10 group-hover:bg-primary/20 transition-colors flex items-center justify-center">
               <span className="font-heading text-xl font-bold text-foreground/60">{p.title}</span>
             </div>
             <div className="p-5 flex items-center justify-between">
