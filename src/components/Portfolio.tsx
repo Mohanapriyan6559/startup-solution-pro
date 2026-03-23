@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 
 const projects = [
-  { title: "Startup Landing Page", category: "Landing Page", color: "from-primary to-secondary" },
-  { title: "Business Website", category: "Corporate", color: "from-secondary to-primary" },
-  { title: "Product Showcase", category: "E-commerce", color: "from-primary to-[hsl(200,80%,50%)]" },
-  { title: "Personal Portfolio", category: "Portfolio", color: "from-[hsl(280,60%,55%)] to-primary" },
+  { title: "Startup Landing Page", category: "Landing Page" },
+  { title: "Business Website", category: "Corporate" },
+  { title: "Product Showcase", category: "E-commerce" },
+  { title: "Personal Portfolio", category: "Portfolio" },
 ];
 
 const Portfolio = () => (
