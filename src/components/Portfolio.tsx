@@ -4,12 +4,14 @@ import portfolio1 from "@/assets/portfolio-1.jpg";
 import portfolio2 from "@/assets/portfolio-2.jpg";
 import portfolio3 from "@/assets/portfolio-3.jpg";
 import portfolio4 from "@/assets/portfolio-4.jpg";
+import portfolio5 from "@/assets/portfolio-5.jpg";
 
 const projects = [
   { title: "Startup Landing Page", category: "Landing Page", image: portfolio1 },
   { title: "Business Website", category: "Corporate", image: portfolio2 },
   { title: "Product Showcase", category: "E-commerce", image: portfolio3 },
   { title: "Personal Portfolio", category: "Portfolio", image: portfolio4 },
+  { title: "Marriage Invitation Card", category: "Invitation Design", image: portfolio5 },
 ];
 
 const Portfolio = () => (
