@@ -33,7 +33,7 @@ const Navbar = () => {
         {/* <a href="#" className="font-heading text-xl font-bold gradient-text">
           Maven Technology
         </a> */}
-        <img src="./remove.png" alt=""  width={70} />
+        <img src="./remove.png" alt=""  width={100} />
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
